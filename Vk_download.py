@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 # Чтение токена для ВК
 with open('token.txt', 'r') as file_object:
     token = file_object.read().strip()
